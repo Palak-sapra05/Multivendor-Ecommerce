@@ -1,0 +1,46 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+:root {
+    --bg-base: #FFFBF1;
+    --bg-surface: #FFF2D0;
+    --bg-surface-rgb: 255, 242, 208;
+    --bg-surface-hover: #FFE8A1;
+    --primary: #E36A6A;
+    --primary-hover: #D15A5A;
+    --accent: #FFB2B2;
+    --success: #10B981;
+    --danger: #ef4444;
+    --text-primary: #4A3B3B;
+    --text-secondary: #8B7E7E;
+    --border: #F5E1B5;
+    --card-hover-bg: #FFFBF1;
+    --card-hover-border: #FFB2B2;
+    --card-hover-text: #E36A6A;
+}
+
+[data-theme="dark"] {
+    --bg-base: #1A1616;
+    --bg-surface: #2D2525;
+    --bg-surface-rgb: 45, 37, 37;
+    --bg-surface-hover: #3D3232;
+    --primary: #E36A6A;
+    --primary-hover: #FFB2B2;
+    --success: #22C55E;
+    --danger: #ef4444;
+    --text-primary: #FFFBF1;
+    --text-secondary: #FFB2B2;
+    --border: #3D3232;
+    --card-hover-bg: #2D2525;
+    --card-hover-border: #E36A6A;
+    --card-hover-text: #FFFBF1;
+}
