@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -57,3 +58,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+# Multivendor-Ecommerce
+MultiVendor E-Commerce Platform is a scalable online marketplace where multiple vendors can manage stores, upload products, and track orders. Customers can browse, shop, and pay securely. Built with Laravel, Php, HTML, CSS, SQl, Docker, and CI/CD automation for a modern, cloud-ready shopping experience.
+>>>>>>> f2479923f44232b3b6631e2ec42cd9ca96910800
